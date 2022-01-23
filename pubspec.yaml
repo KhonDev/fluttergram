@@ -1,0 +1,56 @@
+name: fluttergram
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cached_network_image: ^3.1.0+1
+  shared_preferences: ^2.0.11
+  firebase_messaging: ^11.2.3
+  firebase_storage: ^10.2.3
+  cupertino_icons: ^1.0.2
+  cloud_firestore: ^3.1.4
+  image_picker: ^0.8.4+4
+  google_sign_in: ^5.2.1
+  flutter_svg: ^0.23.0+1
+  firebase_core: ^1.10.5
+  firebase_auth: ^3.3.3
+  path_provider: ^2.0.6
+  geolocator: ^7.7.1
+  geocoding: ^2.0.1
+  provider: ^6.0.2
+  animator: ^3.1.0
+  shimmer: ^2.0.0
+  timeago: ^3.1.0
+  image: ^3.0.8
+  uuid: ^3.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/vectors/
+
+  fonts:
+    - family: Signatra
+      fonts:
+        - asset: assets/fonts/Signatra.ttf
+
